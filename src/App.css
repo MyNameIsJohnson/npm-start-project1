@@ -1,0 +1,63 @@
+.App {
+  display: grid;
+  width: 1440px;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: flex-end;
+  background: black;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin-right: 240px;
+  height: 15px;
+}
+.icon {
+  padding: 0 8px;
+  height: 25px;
+}
+.App-header {
+  background-color: white;
+  width: 100%;
+}
+.logo{
+  width: 250px;
+  margin-left: 150px;
+  padding: 10px;
+}
+
+.navbar {
+  float: right;
+  color: black;
+  margin: 30px 130px 0 0;
+  letter-spacing: 1.1px;
+  font-size: 16px;
+
+}
+.navbar ul {
+  display: inline;
+}
+.navbar ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.getInvolved {
+  padding: 10px;
+  background: white;
+  font-size: 16px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,14 @@
+import React from 'react'
+
+export default function usaGraphic() {
+  return (
+    <div className='usaGraphic'>
+      <p className='percent'>
+        700%
+      </p>
+      <p className='excerpt'>
+        Since the 1970's, the prison population in the U.S. has increased by 700%
+      </p>
+    </div>
+  )
+}
