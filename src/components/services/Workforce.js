@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Workforce() {
   return (
-    <div className='workforce service' style={{backgroundImage: "url('images/workforce.jpeg')"}}>
+    <div className='workforce service' style={{backgroundImage: "linear-gradient(to bottom, rgba(0,0,0, 0) 65% , rgba(0,0,0, 0.87 )), url('images/workforce.jpeg')"}}>
       <a href='https://thelastmile.org/our-work/#reentry'>
         <h1> Workforce Reentry</h1>
         <p>

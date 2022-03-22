@@ -3,6 +3,7 @@ import Education from './services/Education'
 import Expansion from './services/Expansion'
 import Vocation from './services/Vocation'
 import Workforce from './services/Workforce'
+import './services/service.css'
 
 export default function ServiceSection() {
   return (

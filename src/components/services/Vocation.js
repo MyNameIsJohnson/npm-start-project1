@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Vocation() {
   return (
-    <div className='vocation service' style={{backgroundImage: "url('images/vocation.png')"}}>
+    <div className='vocation service' style={{backgroundImage: "linear-gradient(to bottom, rgba(0,0,0, 0) 65% , rgba(0,0,0, 0.87 )), url('images/vocation.png')"}}>
       <a href='https://thelastmile.org/our-work/#vocation'>
         <h1> Vocation</h1>
         <p>
