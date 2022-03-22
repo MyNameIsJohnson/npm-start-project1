@@ -2,6 +2,7 @@ import React from 'react'
 import GlobeGraphic from './graphs/GlobeGraphic';
 import USAGraphic from './graphs/USAGraphic';
 import CaliforniaGraphic from './graphs/CaliforniaGraphic';
+import './graphs/styles.css';
 
 export default function graphicSection() {
   return (

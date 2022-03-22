@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function globeGraphic() {
   return (
-     <div className='globeGraphic' style={{ backgroundImage: 'image/globe_graphic@3x.png' }}>
-      <p className='percent'>
+     <div className='globeGraphic ' style={{backgroundImage: "url('./images/globe_graphic.png"}} >
+      <p className='percent'  >
         25%
       </p>
       <p className='excerpt'>

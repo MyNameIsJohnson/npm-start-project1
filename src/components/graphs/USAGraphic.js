@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function usaGraphic() {
   return (
-    <div className='usaGraphic'>
+    <div className='usaGraphic' style={{backgroundImage: "url('./images/usa_graphic.png"}}>
       <p className='percent'>
         700%
       </p>

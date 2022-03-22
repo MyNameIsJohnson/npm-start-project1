@@ -1,0 +1,35 @@
+.graphSection {
+  background-color: #2e4043;
+  color:white;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto 30% 30% 30% auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-areas: 
+  ". h4 h4 h4 ."
+  ". h1 h1 h1 ."
+  ". globeGraphic usaGraphic californiaGraphic .";
+  text-align: center;
+  
+}
+
+.graphSection h4 {
+  color: rgb(81, 101, 104);
+  grid-area: h4;
+}
+.graphSection h1 {
+  grid-area: h1;
+}
+
+.globeGraphic {
+  grid-area: globeGraphic;
+}
+
+.usaGraphic {
+  grid-area: usaGraphic;
+}
+
+.californiaGraphic {
+  grid-area: californiaGraphic;
+}
