@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Education() {
   return (
-    <div className='education'>
+    <div className='education service' style={{backgroundImage: "url('images/education.png')"}}>
       <a href='https://thelastmile.org/our-work/#education'>
         <h1> Education</h1>
         <p>

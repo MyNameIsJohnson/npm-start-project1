@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Workforce() {
   return (
-    <div className='workforce'>
+    <div className='workforce service' style={{backgroundImage: "url('images/workforce.jpeg')"}}>
       <a href='https://thelastmile.org/our-work/#reentry'>
         <h1> Workforce Reentry</h1>
         <p>
