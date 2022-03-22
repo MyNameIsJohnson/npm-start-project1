@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function globeGraphic() {
+export default function GlobeGraphic() {
   return (
-     <div className='globeGraphic ' style={{backgroundImage: "url('./images/globe_graphic.png"}} >
+     <div className='globeGraphic graph' style={{backgroundImage: "url('./images/globe_graphic.png"}} >
       <p className='percent'  >
         25%
       </p>

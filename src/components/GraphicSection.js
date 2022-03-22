@@ -10,9 +10,13 @@ export default function graphicSection() {
     <div className='graphSection'>
       <h4>THE PROBLEM</h4>
       <h1>The U.S. Justice System is broken.</h1>
+      <div className='graphs'>
+
+
       <GlobeGraphic />
       <USAGraphic />
       <CaliforniaGraphic />
+      </div>
 
     </div>
   )
