@@ -4,9 +4,9 @@ export default function StudentStories() {
   return (
     <div className='studentStories testimonial' style={{backgroundImage: "url('./images/studentStories.png')"}}>
       <a href='https://thelastmile.org/category/student-stories/' >
-        <p>
+        <h3>
           Learn more about the successes of TLM students
-        </p>
+        </h3>
         <hr></hr>
         <p>
           <i>Read More</i>

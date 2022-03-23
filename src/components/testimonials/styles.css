@@ -1,26 +1,38 @@
 .testimonials {
-  height: 500px;
-  padding: 50px;
+  height: 480px;
+  margin: 78px;
   display: grid;
-  grid-template-columns: auto 40% 20% 20% auto;
+  grid-template-columns: auto 558px 263px 263px auto;
   text-align: center;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  gap: 30px;
   grid-template-areas:
       ". secondChance studentStories studentStories ."
       ". secondChance partnerStories annualReport .";
 }
+.testimonial {
+  font-weight: 600; 
+  font-size: 18.5px;
+}
 .testimonial a{
   color:white;
 }
+.testimonial p {
+  font-size: 15.5px;
+  /* height: 10px; */
+  font-weight: 400;
+  margin: 6px 10px;
+}
 .secondChance {
   grid-area: secondChance;
-  background-size: 190% 100%; 
+  background-size: 100% 100%; 
   background-position: top 0px left 50%;
   background-repeat: no-repeat;
   background-image: linear-gradient(to bottom, rgba(0,0,0, 0) 65% , rgba(0,0,0, 0.87 ));
-
 }
+.secondChance h3 {
+  margin: 315px 0 0 0;
+}
+
 .studentStories {
   grid-area: studentStories;
 }
