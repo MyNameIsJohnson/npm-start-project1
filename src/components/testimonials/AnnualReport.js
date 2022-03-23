@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function AnnualReport() {
   return (
-    <div className='annualReport'>
+    <div className='annualReport testimonial'>
       <a href='https://drive.google.com/file/d/15zWL29YTbGo3ku0tWwX4wbxSx8f-5XjD/view'>
-        <caption>
+        <p>
           Learn more about TLM in 2021
-        </caption>
+        </p>
         <hr></hr>
         <p>
           <i>Read More</i>

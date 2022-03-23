@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function PartnerStories() {
   return (
-    <div className='partnerStories'>
+    <div className='partnerStories testimonial'>
       <a href='https://thelastmile.org/category/partner-stories/'>
-        <caption>
+        <p>
           What does it mean to work with TLM?
-        </caption>
+        </p>
         <hr></hr>
         <p>
           <i>Read More</i>
