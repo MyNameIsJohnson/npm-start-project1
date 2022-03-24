@@ -21,10 +21,7 @@
 .service a {
   color: white;
 }
-hr {
-  width: 150px;
-  border: #d9a63b 1px double;
-}
+
 .education {
   grid-area: education;
   background-size: 190% 100%; 
