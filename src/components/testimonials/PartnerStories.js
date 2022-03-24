@@ -2,13 +2,15 @@ import React from 'react'
 
 export default function PartnerStories() {
   return (
-    <div className='partnerStories testimonial'>
+    <div className='partnerStories testimonial box'>
       <a href='https://thelastmile.org/category/partner-stories/'>
         <h3>
-          What does it mean to work with TLM?
+          Partner Stories
         </h3>
-        <hr></hr>
         <p>
+        What does it mean to work with TLM?
+        </p>
+        <p className='more'>
           <i>Read More</i>
         </p>
       </a>
