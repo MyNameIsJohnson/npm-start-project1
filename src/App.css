@@ -1,4 +1,5 @@
 .App {
+  width: 1440px;
   display: grid;
   font-family: 'Roboto', sans-serif;
 }
@@ -7,6 +8,14 @@
   display: flex;
   justify-content: flex-end;
   background: black;
+}
+.header {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+}
+.change {
+  transition: margin-top 100px;
 }
 .icons {
   display: flex;
@@ -52,7 +61,7 @@
 }
 
 /* =======HOMEPAGE======== */
-.hero {
+#hero {
   background-size: cover;
   width: 100%;
   color: white;
