@@ -16,9 +16,12 @@ export default function BottomFooter() {
         <a href='https://www.guidestar.org/profile/46-2899930'><img className='partnerIcons turn2u 'src='images/turn2u.png' alt='turn2u logo'/> </a>
 
       </div>
+      <div className='copyright'>
+        &copy; 2021 - <img style={{margin: '-5px 0'}} src='images/blackTLM.png'alt='black TLM Logo'/>
+      </div>
       <div className="">
         <p className="disclaimer">
-          This is a replica of The Last Mile Organization, that I was inspired to replicate. As a graduate of Track 1 Code 7371. My journey into web develpment ignited. My career aspirations as a Software Engineer sinked their roots and I am following my life goals. I have included a links to their sites contents for your interested reviewing. Thank you TLM for your great work!
+          This is a replica of The Last Mile Organization, that I was inspired to replicate. As a graduate of Track 1 Code 7371. My journey into web develpment ignited. My career aspirations as a Software Engineer sinked their roots and I am following my life goals. I have included links to their sites contents for your interested reviewing. Thank you TLM for your great work!
         </p>
       </div>
     </div>

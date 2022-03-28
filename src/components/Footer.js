@@ -10,9 +10,6 @@ export default function Footer() {
       <LeftFooter />
       <RightFooter />
       <BottomFooter />
-      <div className='copyright'>
-        &copy; 2021 - <img src='images/blackTLM.png'alt='black TLM Logo'/>
-      </div>
     </footer>
   )
 }
