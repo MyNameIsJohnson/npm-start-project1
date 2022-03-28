@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function IconNavbar() {
+
   return (
     <nav className='socialMedia'>
       <ul class="icons">
@@ -14,5 +15,6 @@ export default function IconNavbar() {
           <a href="https://www.linkedin.com/company/the-last-mile" target="_blank" rel="noreferrer"><img class="icon" src={process.env.PUBLIC_URL + 'images/linkedin.png'} alt='linkedin' /></a></li>
       </ul>
     </nav>
+
   )
 }

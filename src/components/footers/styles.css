@@ -1,0 +1,58 @@
+footer {
+  background: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-areas:
+      ". leftFooter rightFooter ."
+      ". bottomFooter bottomFooter ."
+      ". copyright copyright .";
+}
+
+.leftFooter {
+  grid-area: leftFooter;
+}
+
+.rightFooter {
+  grid-area: rightFooter;
+}
+
+.bottomFooter {
+  grid-area: bottomFooter;
+
+
+}
+/* .bottomFooter img {
+  width: 100px;
+} */
+
+.partnerIcons {
+  width: 150px;
+}
+
+.indiana, .michigan {
+  width: 60px;
+}
+.lobecktaylor {
+  width: 70px;
+}
+.turn2u {
+  grid-area: turn2u;
+  float: right;
+  /* height: 63%; */
+  width: 110px;
+  margin: -80px 0 0px 0px;
+}
+.copyright {
+  grid-area: copyright;
+}
+
+.subject, .partners, .copyright {
+  color: #d9a63b;
+}
+
+.copyright img {
+  width: 100px;
+}
+
+/* @media  */

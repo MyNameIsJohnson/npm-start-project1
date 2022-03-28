@@ -1,0 +1,80 @@
+.graphSection {
+  background-color: #2e4043;
+  color: white;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto 90% auto;
+  grid-template-rows: 95px 60px 440px;
+  /* grid-column-gap: 20px; */
+  /* grid-row-gap: 20px; */
+  grid-template-areas:
+      ". h4 ."
+      ". h1 ."
+      ". graphs .";
+  height: 600px;
+}
+
+.graphSection h4 {
+  margin-top: 75px;
+  font-size: 20px;
+  color: rgb(81, 101, 104);
+  grid-area: h4;
+}
+.graphSection h1 {
+  margin: 20px 0 0 0;
+  grid-area: h1;
+  color: white;
+  font-size: 37px;
+  font-weight: 700;
+  font-style: normal;
+}
+.graphs {
+  display: grid;
+  grid-area: graphs;
+  grid-template-columns: 5% 30% 30% 30% 5%;
+  grid-template-areas: ". globeGraphic usaGraphic californiaGraphic .";
+}
+.graph {
+  background-size: 50% 50%; 
+  background-position: top 70px left 50%;
+  background-repeat: no-repeat;
+}
+.percent{
+  font-weight: 600;
+  margin: 120px;
+  font-size: 50px;
+  color: #dd9933;
+}
+.excerpt {
+  max-width: 261px;
+  margin: -10px auto;
+  height: 145px;
+  font-size: 20.8px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: Roboto;
+}
+.globeGraphic {
+  grid-area: globeGraphic;
+  background-size: 52% 44%;
+  background-position: 90px 64px;
+}
+
+.usaGraphic {
+  grid-area: usaGraphic;
+  background-size: 77% 45%;
+  background-position: top 65px left 45px;
+  background-repeat: no-repeat;
+}
+
+.californiaGraphic {
+  grid-area: californiaGraphic;
+  background-size: 60% 45%;
+  background-position: top 65px left 77px;
+  background-repeat: no-repeat;
+}
+
+.californiaGraphic .excerpt {
+  margin: 0 auto;
+}
+

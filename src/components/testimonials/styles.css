@@ -1,0 +1,109 @@
+.testimonials {
+  height: 480px;
+  margin: 78px;
+  display: grid;
+  grid-template-columns: auto 558px 263px 263px auto;
+  grid-template-rows: 225px;
+  text-align: center;
+  grid-column-gap: 37px;
+  grid-row-gap: 31px;
+  grid-template-areas:
+      ". secondChance studentStories studentStories ."
+      ". secondChance partnerStories annualReport .";
+}
+
+.testimonial {
+  font-weight: 600; 
+  font-size: 18.5px;
+} 
+
+.testimonial a{
+  color:white;
+}
+
+.testimonial p {
+  font-size: 16px;
+  /* height: 10px; */
+  font-weight: 400;
+  margin: 6px 10px;
+}
+
+.testimonial p i {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.more {
+  border-top: 2.5px solid #e1ad43;
+  width: 100px;
+  height: 20px;
+  padding: 5px 0 0 0;
+}
+
+.secondChance {
+  grid-area: secondChance;
+  background-size: 100% 100%; 
+  background-position: top 0px left 50%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(0,0,0, 0) 65% , rgba(0,0,0, 0.87 ));
+}
+
+.secondChance h3 {
+  margin: 315px 0 0 0;
+}
+
+.secondChance p.more {
+  margin: 10px 210px;
+  width: 140px;
+  height: 20px;
+  padding: 5px;
+}
+
+.studentStories {
+  grid-area: studentStories;
+  background-size: 100% 100%;
+  background-position: top 0px left 50%;
+  background-repeat: no-repeat;
+}
+
+.studentStories a {
+  position: relative;
+  bottom: 5px;
+  left: 8px;
+  width: 210px;
+  float: right;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.studentStories h3 {
+  margin: 44px 0px 15px 28px;
+
+}
+
+.studentStories p {
+  margin: 0px 0px 10px 0;
+}
+
+.partnerStories {
+  grid-area: partnerStories;
+  background-color: #2e4043;
+}
+
+.box h3 {
+  margin: 35px 0 0 0;
+}
+
+.box p {
+  padding: 10px 15px;
+  line-height: 1.5;
+}
+
+.box .more {
+  padding: 10px 0;
+  margin: 0 auto 0 auto;
+}
+.annualReport {
+  grid-area: annualReport;
+  background-color: black;
+}
