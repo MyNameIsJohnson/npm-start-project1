@@ -1,1 +1,1 @@
-# Site preview [here](https://app.netlify.com/sites/thelastmile-replica/overview)
+# Site preview [here](https://thelastmile-replica.netlify.app/)
